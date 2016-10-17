@@ -5,7 +5,6 @@ url="http://DevOpsBullshit.com"
 doc = Nokogiri(open(url))
 # splitting the web page contents into an array
 bla = doc.inner_text.split.uniq
-#puts bla
 
 #creating my bullshit bingo array
 bullshit_bingo = ["DevOps", "Agile", "continuous", "Delivery", "Integration", "Facebook", "Etsy", "Lean", "culture", "CALMS", "Automation", "Branching", "Scrum", "Kanban", "Transformation"]
