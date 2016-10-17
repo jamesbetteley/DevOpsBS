@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-url="https://www.devopsguys.com/"
+url="http://DevOpsBullshit.com"
 doc = Nokogiri(open(url))
 # splitting the web page contents into an array
 bla = doc.inner_text.split.uniq
