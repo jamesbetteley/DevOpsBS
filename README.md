@@ -1,0 +1,2 @@
+# DevOpsBS
+DevOps Bullshit Bingo
